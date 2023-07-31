@@ -10,4 +10,10 @@ export class AppComponent implements OnInit{
 
   constructor() {}
   ngOnInit() {}
-}
+
+  url:string = "../assets/img1.jpg"
+  imageChange(event: any){
+    this.url = event.target.src;
+  }
+
+ }
