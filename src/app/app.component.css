@@ -266,3 +266,32 @@
   margin: 0 2px;
   font-size: 12px;
 }
+
+.policy{
+  background-image: url(../assets/policy/bg-policy.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding: 60px 0;
+}
+.round{
+  padding: 23px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 34px;
+  background: rgba(255,255,255, .2);
+  transition: all .3s ease;
+  margin: 0 auto;
+  position: relative;
+}
+.round-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.policy-card{
+
+}
